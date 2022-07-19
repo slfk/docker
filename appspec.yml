@@ -1,0 +1,6 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /opt/httpd/vhost/bb-community-web
+file_exists_behavior: OVERWRITE
